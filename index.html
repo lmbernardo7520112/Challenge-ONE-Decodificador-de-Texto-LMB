@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE - Decodificador de Texto - LMB</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./images/Vector.png" alt="logo alura">
+        </div>
+    </header>
+
+    <div>
+        <textarea id="textToEncrypt" name="textToEncrypt" rows="10" cols="33" placeholder="Type your text here"></textarea>
+    </div>
+
+    <div>
+        <img src="./images/sem_texto.svg" alt="Área do texto descriptografado"/>
+        <h2 id="Title">No messages found</h2>
+    </div>
+
+    <div>
+        <img src="./images/info.svg" alt="Ícone de informação"/>
+        <p>"Only lowercase without accent"</p>
+       
+        <button class="encrypt" onclick="btnEncrypt()">Encrypt</button>
+
+        
+        <button class="decrypt" onclick="btnDecrypt()">Decrypt</button>
+    </div>
+    
+</body>
+</html>
